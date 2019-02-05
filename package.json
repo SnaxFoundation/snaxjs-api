@@ -3,6 +3,9 @@
   "version": "7.0.4",
   "description": "Application programming interface to SNAX blockchain nodes.",
   "main": "lib/index.js",
+  "publishConfig": {
+    "access": "public"
+  },
   "files": [
     "README.md",
     "docs",
