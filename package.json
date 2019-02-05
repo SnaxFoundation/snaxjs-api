@@ -1,5 +1,5 @@
 {
-  "name": "snaxjs-api",
+  "name": "@snaxfoundation/snaxjs-api",
   "version": "7.0.4",
   "description": "Application programming interface to SNAX blockchain nodes.",
   "main": "lib/index.js",
