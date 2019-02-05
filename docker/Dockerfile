@@ -1,1 +1,1 @@
-FROM eosio/eos:v1.1.4
+FROM snax/snax:v1.1.4

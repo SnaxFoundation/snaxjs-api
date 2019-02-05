@@ -2,7 +2,7 @@
 
 [./v1/chain.json](./api/chain.json)
 
-Run [nodeos](https://github.com/eosio/eos) or make requests to a public node.
+Run [snaxnode](https://github.com/snax/snax) or make requests to a public node.
 
 Basic API examples:
 ```bash

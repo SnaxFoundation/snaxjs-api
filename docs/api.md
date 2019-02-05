@@ -1,7 +1,7 @@
 ## Objects
 
 <dl>
-<dt><a href="#eos">eos</a> : <code>object</code></dt>
+<dt><a href="#snax">snax</a> : <code>object</code></dt>
 <dd></dd>
 </dl>
 
@@ -46,57 +46,57 @@
 <dd></dd>
 </dl>
 
-<a name="eos"></a>
+<a name="snax"></a>
 
-## eos : <code>object</code>
+## snax : <code>object</code>
 **Kind**: global namespace  
 
-* [eos](#eos) : <code>object</code>
-    * [.getInfo()](#eos.getInfo) ⇒ <code>string</code>
-    * [.getAccount(account_name)](#eos.getAccount) ⇒ <code>string</code>
-    * [.getCode(account_name, [code_as_wasm])](#eos.getCode) ⇒ [<code>getCodeResult</code>](#getCodeResult)
-    * [.getCodeHash(account_name)](#eos.getCodeHash) ⇒ [<code>getCodeHashResult</code>](#getCodeHashResult)
-    * [.getAbi(account_name)](#eos.getAbi) ⇒ [<code>getAbiResult</code>](#getAbiResult)
-    * [.getRawCodeAndAbi(account_name)](#eos.getRawCodeAndAbi) ⇒ [<code>getRawCodeAndAbiResult</code>](#getRawCodeAndAbiResult)
-    * [.abiJsonToBin(code, action, args)](#eos.abiJsonToBin) ⇒ [<code>abiJsonToBinResult</code>](#abiJsonToBinResult)
-    * [.abiBinToJson(code, action, binargs)](#eos.abiBinToJson) ⇒ [<code>abiBinToJsonResult</code>](#abiBinToJsonResult)
-    * [.getRequiredKeys(transaction, available_keys)](#eos.getRequiredKeys) ⇒ <code>Set.&lt;public_key&gt;</code>
-    * [.getBlock(block_num_or_id)](#eos.getBlock) ⇒ <code>variant</code>
-    * [.getBlockHeaderState(block_num_or_id)](#eos.getBlockHeaderState) ⇒ <code>string</code>
-    * [.getTableRows([json], code, scope, table, table_key, [lower_bound], [upper_bound], [limit], key_type, index_position)](#eos.getTableRows) ⇒ [<code>getTableRowsResult</code>](#getTableRowsResult)
-    * [.getCurrencyBalance(code, account, symbol)](#eos.getCurrencyBalance) ⇒ <code>Array.&lt;asset&gt;</code>
-    * [.getCurrencyStats(code, symbol)](#eos.getCurrencyStats) ⇒ [<code>getCurrencyStatsResult</code>](#getCurrencyStatsResult)
-    * [.getProducers([json], lower_bound, [limit])](#eos.getProducers) ⇒ [<code>getProducersResult</code>](#getProducersResult)
-    * [.getProducerSchedule()](#eos.getProducerSchedule) ⇒ [<code>getProducerScheduleResult</code>](#getProducerScheduleResult)
-    * [.getScheduledTransactions([json], lower_bound, [limit])](#eos.getScheduledTransactions) ⇒ [<code>getScheduledTransactionsResult</code>](#getScheduledTransactionsResult)
-    * [.pushBlock(block)](#eos.pushBlock)
-    * [.pushTransaction(signed_transaction)](#eos.pushTransaction) ⇒ [<code>pushTransactionResult</code>](#pushTransactionResult)
-    * [.pushTransactions(signed_transaction)](#eos.pushTransactions) ⇒ <code>vector.&lt;push_transaction.results&gt;</code>
-    * [.getActions(account_name, [pos], [offset])](#eos.getActions) ⇒ [<code>getActionsResult</code>](#getActionsResult)
-    * [.getTransaction(id, [block_num_hint])](#eos.getTransaction) ⇒ [<code>getTransactionResult</code>](#getTransactionResult)
-    * [.getKeyAccounts(public_key)](#eos.getKeyAccounts) ⇒ [<code>getKeyAccountsResult</code>](#getKeyAccountsResult)
-    * [.getControlledAccounts(controlling_account)](#eos.getControlledAccounts) ⇒ [<code>getControlledAccountsResult</code>](#getControlledAccountsResult)
+* [snax](#snax) : <code>object</code>
+    * [.getInfo()](#snax.getInfo) ⇒ <code>string</code>
+    * [.getAccount(account_name)](#snax.getAccount) ⇒ <code>string</code>
+    * [.getCode(account_name, [code_as_wasm])](#snax.getCode) ⇒ [<code>getCodeResult</code>](#getCodeResult)
+    * [.getCodeHash(account_name)](#snax.getCodeHash) ⇒ [<code>getCodeHashResult</code>](#getCodeHashResult)
+    * [.getAbi(account_name)](#snax.getAbi) ⇒ [<code>getAbiResult</code>](#getAbiResult)
+    * [.getRawCodeAndAbi(account_name)](#snax.getRawCodeAndAbi) ⇒ [<code>getRawCodeAndAbiResult</code>](#getRawCodeAndAbiResult)
+    * [.abiJsonToBin(code, action, args)](#snax.abiJsonToBin) ⇒ [<code>abiJsonToBinResult</code>](#abiJsonToBinResult)
+    * [.abiBinToJson(code, action, binargs)](#snax.abiBinToJson) ⇒ [<code>abiBinToJsonResult</code>](#abiBinToJsonResult)
+    * [.getRequiredKeys(transaction, available_keys)](#snax.getRequiredKeys) ⇒ <code>Set.&lt;public_key&gt;</code>
+    * [.getBlock(block_num_or_id)](#snax.getBlock) ⇒ <code>variant</code>
+    * [.getBlockHeaderState(block_num_or_id)](#snax.getBlockHeaderState) ⇒ <code>string</code>
+    * [.getTableRows([json], code, scope, table, table_key, [lower_bound], [upper_bound], [limit], key_type, index_position)](#snax.getTableRows) ⇒ [<code>getTableRowsResult</code>](#getTableRowsResult)
+    * [.getCurrencyBalance(code, account, symbol)](#snax.getCurrencyBalance) ⇒ <code>Array.&lt;asset&gt;</code>
+    * [.getCurrencyStats(code, symbol)](#snax.getCurrencyStats) ⇒ [<code>getCurrencyStatsResult</code>](#getCurrencyStatsResult)
+    * [.getProducers([json], lower_bound, [limit])](#snax.getProducers) ⇒ [<code>getProducersResult</code>](#getProducersResult)
+    * [.getProducerSchedule()](#snax.getProducerSchedule) ⇒ [<code>getProducerScheduleResult</code>](#getProducerScheduleResult)
+    * [.getScheduledTransactions([json], lower_bound, [limit])](#snax.getScheduledTransactions) ⇒ [<code>getScheduledTransactionsResult</code>](#getScheduledTransactionsResult)
+    * [.pushBlock(block)](#snax.pushBlock)
+    * [.pushTransaction(signed_transaction)](#snax.pushTransaction) ⇒ [<code>pushTransactionResult</code>](#pushTransactionResult)
+    * [.pushTransactions(signed_transaction)](#snax.pushTransactions) ⇒ <code>vector.&lt;push_transaction.results&gt;</code>
+    * [.getActions(account_name, [pos], [offset])](#snax.getActions) ⇒ [<code>getActionsResult</code>](#getActionsResult)
+    * [.getTransaction(id, [block_num_hint])](#snax.getTransaction) ⇒ [<code>getTransactionResult</code>](#getTransactionResult)
+    * [.getKeyAccounts(public_key)](#snax.getKeyAccounts) ⇒ [<code>getKeyAccountsResult</code>](#getKeyAccountsResult)
+    * [.getControlledAccounts(controlling_account)](#snax.getControlledAccounts) ⇒ [<code>getControlledAccountsResult</code>](#getControlledAccountsResult)
 
-<a name="eos.getInfo"></a>
+<a name="snax.getInfo"></a>
 
-### eos.getInfo() ⇒ <code>string</code>
+### snax.getInfo() ⇒ <code>string</code>
 Return general network information.
 
-**Kind**: static method of [<code>eos</code>](#eos)  
+**Kind**: static method of [<code>snax</code>](#snax)  
 **Example**  
 ```js
 url_path: `/v1/chain/get_info`
 ```
 **Example**  
 ```js
-eos.getInfo({})
+snax.getInfo({})
 ```
-<a name="eos.getAccount"></a>
+<a name="snax.getAccount"></a>
 
-### eos.getAccount(account_name) ⇒ <code>string</code>
+### snax.getAccount(account_name) ⇒ <code>string</code>
 Fetch a blockchain account
 
-**Kind**: static method of [<code>eos</code>](#eos)  
+**Kind**: static method of [<code>snax</code>](#snax)  
 
 | Param | Type |
 | --- | --- |
@@ -108,14 +108,14 @@ url_path: `/v1/chain/get_account`
 ```
 **Example**  
 ```js
-eos.getAccount(account_name)
+snax.getAccount(account_name)
 ```
-<a name="eos.getCode"></a>
+<a name="snax.getCode"></a>
 
-### eos.getCode(account_name, [code_as_wasm]) ⇒ [<code>getCodeResult</code>](#getCodeResult)
+### snax.getCode(account_name, [code_as_wasm]) ⇒ [<code>getCodeResult</code>](#getCodeResult)
 Fetch smart contract code
 
-**Kind**: static method of [<code>eos</code>](#eos)  
+**Kind**: static method of [<code>snax</code>](#snax)  
 
 | Param | Type | Default |
 | --- | --- | --- |
@@ -128,12 +128,12 @@ url_path: `/v1/chain/get_code`
 ```
 **Example**  
 ```js
-eos.getCode(account_name, code_as_wasm)
+snax.getCode(account_name, code_as_wasm)
 ```
-<a name="eos.getCodeHash"></a>
+<a name="snax.getCodeHash"></a>
 
-### eos.getCodeHash(account_name) ⇒ [<code>getCodeHashResult</code>](#getCodeHashResult)
-**Kind**: static method of [<code>eos</code>](#eos)  
+### snax.getCodeHash(account_name) ⇒ [<code>getCodeHashResult</code>](#getCodeHashResult)
+**Kind**: static method of [<code>snax</code>](#snax)  
 
 | Param | Type |
 | --- | --- |
@@ -145,12 +145,12 @@ url_path: `/v1/chain/get_code_hash`
 ```
 **Example**  
 ```js
-eos.getCodeHash(account_name)
+snax.getCodeHash(account_name)
 ```
-<a name="eos.getAbi"></a>
+<a name="snax.getAbi"></a>
 
-### eos.getAbi(account_name) ⇒ [<code>getAbiResult</code>](#getAbiResult)
-**Kind**: static method of [<code>eos</code>](#eos)  
+### snax.getAbi(account_name) ⇒ [<code>getAbiResult</code>](#getAbiResult)
+**Kind**: static method of [<code>snax</code>](#snax)  
 
 | Param | Type |
 | --- | --- |
@@ -162,12 +162,12 @@ url_path: `/v1/chain/get_abi`
 ```
 **Example**  
 ```js
-eos.getAbi(account_name)
+snax.getAbi(account_name)
 ```
-<a name="eos.getRawCodeAndAbi"></a>
+<a name="snax.getRawCodeAndAbi"></a>
 
-### eos.getRawCodeAndAbi(account_name) ⇒ [<code>getRawCodeAndAbiResult</code>](#getRawCodeAndAbiResult)
-**Kind**: static method of [<code>eos</code>](#eos)  
+### snax.getRawCodeAndAbi(account_name) ⇒ [<code>getRawCodeAndAbiResult</code>](#getRawCodeAndAbiResult)
+**Kind**: static method of [<code>snax</code>](#snax)  
 
 | Param | Type |
 | --- | --- |
@@ -179,14 +179,14 @@ url_path: `/v1/chain/get_raw_code_and_abi`
 ```
 **Example**  
 ```js
-eos.getRawCodeAndAbi(account_name)
+snax.getRawCodeAndAbi(account_name)
 ```
-<a name="eos.abiJsonToBin"></a>
+<a name="snax.abiJsonToBin"></a>
 
-### eos.abiJsonToBin(code, action, args) ⇒ [<code>abiJsonToBinResult</code>](#abiJsonToBinResult)
+### snax.abiJsonToBin(code, action, args) ⇒ [<code>abiJsonToBinResult</code>](#abiJsonToBinResult)
 Manually serialize json into binary hex.  The binayargs is usually stored in Action.data.
 
-**Kind**: static method of [<code>eos</code>](#eos)  
+**Kind**: static method of [<code>snax</code>](#snax)  
 
 | Param | Type |
 | --- | --- |
@@ -200,14 +200,14 @@ url_path: `/v1/chain/abi_json_to_bin`
 ```
 **Example**  
 ```js
-eos.abiJsonToBin(code, action, args)
+snax.abiJsonToBin(code, action, args)
 ```
-<a name="eos.abiBinToJson"></a>
+<a name="snax.abiBinToJson"></a>
 
-### eos.abiBinToJson(code, action, binargs) ⇒ [<code>abiBinToJsonResult</code>](#abiBinToJsonResult)
+### snax.abiBinToJson(code, action, binargs) ⇒ [<code>abiBinToJsonResult</code>](#abiBinToJsonResult)
 Convert bin hex back into Abi json definition.
 
-**Kind**: static method of [<code>eos</code>](#eos)  
+**Kind**: static method of [<code>snax</code>](#snax)  
 
 | Param | Type |
 | --- | --- |
@@ -221,12 +221,12 @@ url_path: `/v1/chain/abi_bin_to_json`
 ```
 **Example**  
 ```js
-eos.abiBinToJson(code, action, binargs)
+snax.abiBinToJson(code, action, binargs)
 ```
-<a name="eos.getRequiredKeys"></a>
+<a name="snax.getRequiredKeys"></a>
 
-### eos.getRequiredKeys(transaction, available_keys) ⇒ <code>Set.&lt;public_key&gt;</code>
-**Kind**: static method of [<code>eos</code>](#eos)  
+### snax.getRequiredKeys(transaction, available_keys) ⇒ <code>Set.&lt;public_key&gt;</code>
+**Kind**: static method of [<code>snax</code>](#snax)  
 
 | Param | Type |
 | --- | --- |
@@ -239,14 +239,14 @@ url_path: `/v1/chain/get_required_keys`
 ```
 **Example**  
 ```js
-eos.getRequiredKeys(transaction, available_keys)
+snax.getRequiredKeys(transaction, available_keys)
 ```
-<a name="eos.getBlock"></a>
+<a name="snax.getBlock"></a>
 
-### eos.getBlock(block_num_or_id) ⇒ <code>variant</code>
+### snax.getBlock(block_num_or_id) ⇒ <code>variant</code>
 Fetch a block from the blockchain.
 
-**Kind**: static method of [<code>eos</code>](#eos)  
+**Kind**: static method of [<code>snax</code>](#snax)  
 
 | Param | Type |
 | --- | --- |
@@ -258,14 +258,14 @@ url_path: `/v1/chain/get_block`
 ```
 **Example**  
 ```js
-eos.getBlock(block_num_or_id)
+snax.getBlock(block_num_or_id)
 ```
-<a name="eos.getBlockHeaderState"></a>
+<a name="snax.getBlockHeaderState"></a>
 
-### eos.getBlockHeaderState(block_num_or_id) ⇒ <code>string</code>
+### snax.getBlockHeaderState(block_num_or_id) ⇒ <code>string</code>
 Fetch the minimum state necessary to validate transaction headers.
 
-**Kind**: static method of [<code>eos</code>](#eos)  
+**Kind**: static method of [<code>snax</code>](#snax)  
 
 | Param | Type |
 | --- | --- |
@@ -277,14 +277,14 @@ url_path: `/v1/chain/get_block_header_state`
 ```
 **Example**  
 ```js
-eos.getBlockHeaderState(block_num_or_id)
+snax.getBlockHeaderState(block_num_or_id)
 ```
-<a name="eos.getTableRows"></a>
+<a name="snax.getTableRows"></a>
 
-### eos.getTableRows([json], code, scope, table, table_key, [lower_bound], [upper_bound], [limit], key_type, index_position) ⇒ [<code>getTableRowsResult</code>](#getTableRowsResult)
+### snax.getTableRows([json], code, scope, table, table_key, [lower_bound], [upper_bound], [limit], key_type, index_position) ⇒ [<code>getTableRowsResult</code>](#getTableRowsResult)
 Fetch smart contract data from an account.
 
-**Kind**: static method of [<code>eos</code>](#eos)  
+**Kind**: static method of [<code>snax</code>](#snax)  
 
 | Param | Type | Default | Description |
 | --- | --- | --- | --- |
@@ -305,12 +305,12 @@ url_path: `/v1/chain/get_table_rows`
 ```
 **Example**  
 ```js
-eos.getTableRows(json, code, scope, table, table_key, lower_bound, upper_bound, limit, key_type, index_position)
+snax.getTableRows(json, code, scope, table, table_key, lower_bound, upper_bound, limit, key_type, index_position)
 ```
-<a name="eos.getCurrencyBalance"></a>
+<a name="snax.getCurrencyBalance"></a>
 
-### eos.getCurrencyBalance(code, account, symbol) ⇒ <code>Array.&lt;asset&gt;</code>
-**Kind**: static method of [<code>eos</code>](#eos)  
+### snax.getCurrencyBalance(code, account, symbol) ⇒ <code>Array.&lt;asset&gt;</code>
+**Kind**: static method of [<code>snax</code>](#snax)  
 
 | Param | Type |
 | --- | --- |
@@ -324,12 +324,12 @@ url_path: `/v1/chain/get_currency_balance`
 ```
 **Example**  
 ```js
-eos.getCurrencyBalance(code, account, symbol)
+snax.getCurrencyBalance(code, account, symbol)
 ```
-<a name="eos.getCurrencyStats"></a>
+<a name="snax.getCurrencyStats"></a>
 
-### eos.getCurrencyStats(code, symbol) ⇒ [<code>getCurrencyStatsResult</code>](#getCurrencyStatsResult)
-**Kind**: static method of [<code>eos</code>](#eos)  
+### snax.getCurrencyStats(code, symbol) ⇒ [<code>getCurrencyStatsResult</code>](#getCurrencyStatsResult)
+**Kind**: static method of [<code>snax</code>](#snax)  
 
 | Param | Type |
 | --- | --- |
@@ -342,14 +342,14 @@ url_path: `/v1/chain/get_currency_stats`
 ```
 **Example**  
 ```js
-eos.getCurrencyStats(code, symbol)
+snax.getCurrencyStats(code, symbol)
 ```
-<a name="eos.getProducers"></a>
+<a name="snax.getProducers"></a>
 
-### eos.getProducers([json], lower_bound, [limit]) ⇒ [<code>getProducersResult</code>](#getProducersResult)
+### snax.getProducers([json], lower_bound, [limit]) ⇒ [<code>getProducersResult</code>](#getProducersResult)
 Fetch smart contract data from producer.
 
-**Kind**: static method of [<code>eos</code>](#eos)  
+**Kind**: static method of [<code>snax</code>](#snax)  
 
 | Param | Type | Default |
 | --- | --- | --- |
@@ -363,24 +363,24 @@ url_path: `/v1/chain/get_producers`
 ```
 **Example**  
 ```js
-eos.getProducers(json, lower_bound, limit)
+snax.getProducers(json, lower_bound, limit)
 ```
-<a name="eos.getProducerSchedule"></a>
+<a name="snax.getProducerSchedule"></a>
 
-### eos.getProducerSchedule() ⇒ [<code>getProducerScheduleResult</code>](#getProducerScheduleResult)
-**Kind**: static method of [<code>eos</code>](#eos)  
+### snax.getProducerSchedule() ⇒ [<code>getProducerScheduleResult</code>](#getProducerScheduleResult)
+**Kind**: static method of [<code>snax</code>](#snax)  
 **Example**  
 ```js
 url_path: `/v1/chain/get_producer_schedule`
 ```
 **Example**  
 ```js
-eos.getProducerSchedule()
+snax.getProducerSchedule()
 ```
-<a name="eos.getScheduledTransactions"></a>
+<a name="snax.getScheduledTransactions"></a>
 
-### eos.getScheduledTransactions([json], lower_bound, [limit]) ⇒ [<code>getScheduledTransactionsResult</code>](#getScheduledTransactionsResult)
-**Kind**: static method of [<code>eos</code>](#eos)  
+### snax.getScheduledTransactions([json], lower_bound, [limit]) ⇒ [<code>getScheduledTransactionsResult</code>](#getScheduledTransactionsResult)
+**Kind**: static method of [<code>snax</code>](#snax)  
 
 | Param | Type | Default | Description |
 | --- | --- | --- | --- |
@@ -394,14 +394,14 @@ url_path: `/v1/chain/get_scheduled_transactions`
 ```
 **Example**  
 ```js
-eos.getScheduledTransactions(json, lower_bound, limit)
+snax.getScheduledTransactions(json, lower_bound, limit)
 ```
-<a name="eos.pushBlock"></a>
+<a name="snax.pushBlock"></a>
 
-### eos.pushBlock(block)
+### snax.pushBlock(block)
 Append a block to the chain database.
 
-**Kind**: static method of [<code>eos</code>](#eos)  
+**Kind**: static method of [<code>snax</code>](#snax)  
 
 | Param | Type |
 | --- | --- |
@@ -413,14 +413,14 @@ url_path: `/v1/chain/push_block`
 ```
 **Example**  
 ```js
-eos.pushBlock(block)
+snax.pushBlock(block)
 ```
-<a name="eos.pushTransaction"></a>
+<a name="snax.pushTransaction"></a>
 
-### eos.pushTransaction(signed_transaction) ⇒ [<code>pushTransactionResult</code>](#pushTransactionResult)
+### snax.pushTransaction(signed_transaction) ⇒ [<code>pushTransactionResult</code>](#pushTransactionResult)
 Attempts to push the transaction into the pending queue.
 
-**Kind**: static method of [<code>eos</code>](#eos)  
+**Kind**: static method of [<code>snax</code>](#snax)  
 
 | Param | Type |
 | --- | --- |
@@ -432,14 +432,14 @@ url_path: `/v1/chain/push_transaction`
 ```
 **Example**  
 ```js
-eos.pushTransaction(signed_transaction)
+snax.pushTransaction(signed_transaction)
 ```
-<a name="eos.pushTransactions"></a>
+<a name="snax.pushTransactions"></a>
 
-### eos.pushTransactions(signed_transaction) ⇒ <code>vector.&lt;push_transaction.results&gt;</code>
+### snax.pushTransactions(signed_transaction) ⇒ <code>vector.&lt;push_transaction.results&gt;</code>
 Attempts to push transactions into the pending queue.
 
-**Kind**: static method of [<code>eos</code>](#eos)  
+**Kind**: static method of [<code>snax</code>](#snax)  
 
 | Param | Type |
 | --- | --- |
@@ -451,12 +451,12 @@ url_path: `/v1/chain/push_transactions`
 ```
 **Example**  
 ```js
-eos.pushTransactions(signed_transaction)
+snax.pushTransactions(signed_transaction)
 ```
-<a name="eos.getActions"></a>
+<a name="snax.getActions"></a>
 
-### eos.getActions(account_name, [pos], [offset]) ⇒ [<code>getActionsResult</code>](#getActionsResult)
-**Kind**: static method of [<code>eos</code>](#eos)  
+### snax.getActions(account_name, [pos], [offset]) ⇒ [<code>getActionsResult</code>](#getActionsResult)
+**Kind**: static method of [<code>snax</code>](#snax)  
 
 | Param | Type | Description |
 | --- | --- | --- |
@@ -470,14 +470,14 @@ url_path: `/v1/history/get_actions`
 ```
 **Example**  
 ```js
-eos.getActions(account_name, pos, offset)
+snax.getActions(account_name, pos, offset)
 ```
-<a name="eos.getTransaction"></a>
+<a name="snax.getTransaction"></a>
 
-### eos.getTransaction(id, [block_num_hint]) ⇒ [<code>getTransactionResult</code>](#getTransactionResult)
+### snax.getTransaction(id, [block_num_hint]) ⇒ [<code>getTransactionResult</code>](#getTransactionResult)
 Retrieve a transaction from the blockchain.
 
-**Kind**: static method of [<code>eos</code>](#eos)  
+**Kind**: static method of [<code>snax</code>](#snax)  
 
 | Param | Type | Default | Description |
 | --- | --- | --- | --- |
@@ -490,12 +490,12 @@ url_path: `/v1/history/get_transaction`
 ```
 **Example**  
 ```js
-eos.getTransaction(id, block_num_hint)
+snax.getTransaction(id, block_num_hint)
 ```
-<a name="eos.getKeyAccounts"></a>
+<a name="snax.getKeyAccounts"></a>
 
-### eos.getKeyAccounts(public_key) ⇒ [<code>getKeyAccountsResult</code>](#getKeyAccountsResult)
-**Kind**: static method of [<code>eos</code>](#eos)  
+### snax.getKeyAccounts(public_key) ⇒ [<code>getKeyAccountsResult</code>](#getKeyAccountsResult)
+**Kind**: static method of [<code>snax</code>](#snax)  
 
 | Param | Type |
 | --- | --- |
@@ -507,12 +507,12 @@ url_path: `/v1/history/get_key_accounts`
 ```
 **Example**  
 ```js
-eos.getKeyAccounts(public_key)
+snax.getKeyAccounts(public_key)
 ```
-<a name="eos.getControlledAccounts"></a>
+<a name="snax.getControlledAccounts"></a>
 
-### eos.getControlledAccounts(controlling_account) ⇒ [<code>getControlledAccountsResult</code>](#getControlledAccountsResult)
-**Kind**: static method of [<code>eos</code>](#eos)  
+### snax.getControlledAccounts(controlling_account) ⇒ [<code>getControlledAccountsResult</code>](#getControlledAccountsResult)
+**Kind**: static method of [<code>snax</code>](#snax)  
 
 | Param | Type |
 | --- | --- |
@@ -524,7 +524,7 @@ url_path: `/v1/history/get_controlled_accounts`
 ```
 **Example**  
 ```js
-eos.getControlledAccounts(controlling_account)
+snax.getControlledAccounts(controlling_account)
 ```
 <a name="bytes"></a>
 
